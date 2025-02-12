@@ -1,57 +1,219 @@
-.flex-container {
+/* 
+LOGO
+PORTFOLIO NAME
+SOCIALS 
+*/
+.nav_container {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
     display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
-    flex-direction: row;
-}
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
 .nav_bar {
     display: flex;
-    /*
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(255, 0, 200);
-    */
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+}
+
+.nav_bar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+}
+
+.nav_bar a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0073e6;
+    text-decoration: none;
+    padding: 0 15px;
+    text-align: center;
 }
 
 .nav_bar1 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 10px;
+}
+
+.flex-item0 a {
+    font-size: 60px; 
+    font-weight: bold; 
+    color: #000000; 
+    text-decoration: none; 
+    font-family: 'Arial', sans-serif; 
+    text-align: center; 
+    display: block; 
+    padding: 10px 0; 
+}
+
+.flex-item0 img {
+    width: 180px; 
+    height: 180px; 
+}
+
+
+.flex-item1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-item1 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.flex-item1 a:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+.flex-item1 img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.flex-item img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.flex-item a {
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000; 
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_bar1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 10px;
+    background-color: #ffffff; 
+}
+
+
+/* 
+FEATURED PHOTO
+PROJECTS
+SKILLS
+AUTOBIOGRAPHY
+*/
+.flex-container {
+    display: flex;
     /*
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(255, 0, 200);
+    border-color: red;
     */
     flex-direction: row;
 }
 
 .flex-container2 {
     display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(0, 255, 51);
-    flex-direction: row;
+    gap: 20px; 
+    padding: 20px;
+    background-color: #f8f8f8; 
+}
+
+.flex-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif;
+    color: #333;
+    flex: 1; 
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0073e6; 
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6; 
 }
 
 .flex-container3 {
     display: flex;
+    /*
     border-style: solid;
     border-width: 5px;
     border-color: rgb(0, 255, 51);
+    */
     flex-direction: row;
 }
 
-.flex-item {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(255, 255, 255);
-    margin: auto;
+.flex-item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    font-family: Arial, sans-serif;
 }
 
-.flex-item1 {
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(255, 255, 255);
-    margin: auto;
+.flex-item1 a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
 }
+
+.flex-item1 img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+
+/* FOR THE FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-item {
+    margin: 5px 0;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: #0073e6; 
+    font-weight: bold;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
